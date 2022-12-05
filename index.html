@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecipeHub</title>
+  <link rel = "shortcut icon" type = "x-icon" href = "recipehub.png"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <img src = "recipehub.png">
+        <h2 class = "title">Meal that fits your Ingredients</h2> 
+        <blockquote>Good food is the foundation of Real happiness.<br>
+          <cite>- Rohini Verma</cite>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results</h2>
+        <div id= "meal">
+          
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+       
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- footer content-->
+<footer>
+    <div class="footer-content">
+        <h3>RecipeHub</h3>
+        <p>This is a recipe website that will provide you with quick recipes based on the ingredients you have on hand. This will show you what you can easily make with your household goods. It also includes a video link at the bottom for a simple and step-by-step tutorial for many scrumptious recipes.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy; <a href="#">Priyanshu Kumar | RecipeHub</a>  </p>
+                <div class="footer-menu">
+                  <ul class="f-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sponsor Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+    </div>
+
+</footer>
+
+  <script src = "script.js"></script>
+</body>
+</html>
